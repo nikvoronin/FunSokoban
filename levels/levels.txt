@@ -1,27 +1,50 @@
-; Level 1 – Simple push
+;         
+;
+; Level #1 – $imple push.
 #####
 # . #
 # $ #
 # @ #
 #####
 
+;
+
 ; Level 2 – Two boxes, two goals
+
 #######
 #  . .#
 #  $  #
 # @$  #
+#_____#
 #######
 
+
 ; Level 3 – Narrow corridor
+
 ########
 #@     #
 # $##  #
-#  .   #
+# *.  #
 ########
 
 ; Level 4 – Small warehouse
 ########
+#      #
 #  . . #
 #  $$  #
-#  @   #
-########
+#  @###
+#####
+
+; Level 5 – Lazy house
+#####
+#+$.#
+#$-_#
+#fs*#
+#####
+
+; Level 6 – Out of bounds
+##
+#@$
+##
+. 
+###
