@@ -1,0 +1,27 @@
+; Level 1 – Simple push
+#####
+# . #
+# $ #
+# @ #
+#####
+
+; Level 2 – Two boxes, two goals
+#######
+#  . .#
+#  $  #
+# @$  #
+#######
+
+; Level 3 – Narrow corridor
+########
+#@     #
+# $##  #
+#  .   #
+########
+
+; Level 4 – Small warehouse
+########
+#  . . #
+#  $$  #
+#  @   #
+########
