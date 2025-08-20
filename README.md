@@ -12,11 +12,17 @@ Minimalistic `Fun`ctional `Sokoban` (console, no mutable vars). Initially vibe c
 - [Interface](#interface)
 - [Level Collections](#level-collections)
 - [Develop F# Console Project](#develop-f-console-project)
+  - [Release Build](#release-build)
   - [Create and Run](#create-and-run)
   - [Project Additionals](#project-additionals)
   - [Debugging (vscode)](#debugging-vscode)
   - [F5 Unexpected Behavior](#f5-unexpected-behavior)
 - [VIBE CODED WITH ARTIFICIAL INTELLIGENCE](#vibe-coded-with-artificial-intelligence)
+
+**System requirements:** Windows 10 x64, .NET Desktop Runtime 9.0.\
+Linux and macOS are also supported with the corresponding .NET runtime.
+
+For the initial AI-generated prototype, check out the [vibe-coding](https://github.com/nikvoronin/FunSokoban/tree/vibe-coding) branch. It includes the vibe-code and the complete prompt history.
 
 ```plain
 > FunSokoban.exe
@@ -110,6 +116,10 @@ Level data is loaded from text files, see the `levels/*` directory. The game rea
 - [Minicosmos](levels/Minicosmos.xsb) (40) - Aymeric du Peloux © 2001
 
 ## Develop F# Console Project
+
+### Release Build
+
+> dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true -p:PublishTrimmed=true
 
 ### Create and Run
 
