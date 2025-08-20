@@ -153,7 +153,7 @@ let render levelName (state: State) =
         elif onPlayerWhenSolved then "😁"
         elif onPlayer then "😊"
         elif onGoal then "🎯"
-        else "  "
+        else "💠"
         // if   onWall then '#'
         // elif onBoxOnGoal then '*'
         // elif onBox then '$'
