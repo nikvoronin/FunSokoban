@@ -124,7 +124,7 @@ Level data is loaded from text files, see the `levels/*` directory. The game rea
 ### Create and Run
 
 ```plain
-> dotnet new console -lang F# -o Sokofun
+> dotnet new console -lang F# -o FunSokoban
 > dotnet build
 > dotnet run
 ```
