@@ -4,9 +4,9 @@ Minimalistic `Fun`ctional `Sokoban` (console, no mutable vars). Initially vibe c
 
 ```plain
 >
- ┏┓    ┏┓     ┓     
- ┣ ┓┏┏┓┗┓┏┓┏┏┓┣┓┏┓┏┓
- ┻ ┗┻┛┗┗┛┗┛┗┗┛┗┛┗┻┛┗
+ ┏┓    ┏┓  ┓   ┓     
+ ┣ ┓┏┏┓┗┓┏┓┃┏┏┓┣┓┏┓┏┓
+ ┻ ┗┻┛┗┗┛┗┛┛┗┗┛┗┛┗┻┛┗
 ```
 
 - [Interface](#interface)
@@ -37,10 +37,10 @@ For the initial AI-generated prototype, check out the [vibe-coding](https://gith
 - **Quit** (menu and game) -- press Enter with no input, or enter a value outside the available range.
 
 ```plain
- ┏┓    ┏┓     ┓
- ┣ ┓┏┏┓┗┓┏┓┏┏┓┣┓┏┓┏┓
- ┻ ┗┻┛┗┗┛┗┛┗┗┛┗┛┗┻┛┗
- Functional..Sokoban
+ ┏┓    ┏┓  ┓   ┓     
+ ┣ ┓┏┏┓┗┓┏┓┃┏┏┓┣┓┏┓┏┓
+ ┻ ┗┻┛┗┗┛┗┛┛┗┗┛┗┛┗┻┛┗
+ Functional + Sokoban
 
   1.  Level 1 – Simple push
   2.  Level 2 – Two boxes, two goals

@@ -1,16 +1,17 @@
 (*
 
-o--o            o-o               o            
-|              |                  |            
-O-o  o  o o-o   o-o  o-o  o-o o-o O-o   oo o-o 
-|    |  | |  |     | | | |    | | |  | | | |  |
-o    o--o o  o o--o  o-o  o-o o-o o-o  o-o-o  o
+o--o            o-o      o        o             
+|              |         | /      |             
+O-o  o  o o-o   o-o  o-o OO   o-o O-o   oo o-o  
+|    |  | |  |     | | | | \  | | |  | | | |  | 
+o    o--o o  o o--o  o-o o  o o-o o-o  o-o-o  o 
 
 FunSokoban -- Minimalistic functional Sokoban (console, no mutable vars)
 Initially vibe coded with ChatGPT 5
 Brought to working condition by Human Being 45
 Controls (in-game): Arrows move | U undo | R restart | N next | P prev | Q quit
 Menu: Enter to select a level, empty string or out of range value to quit.
+Logo: Tinker-Toy, Tmplr
 
 *)
 
@@ -261,10 +262,10 @@ let splitLevels (packText: string) =
 let renderMenu levels selected =
     Console.Clear()
 
-    printfn " ┏┓    ┏┓     ┓     "
-    printfn " ┣ ┓┏┏┓┗┓┏┓┏┏┓┣┓┏┓┏┓" 
-    printfn " ┻ ┗┻┛┗┗┛┗┛┗┗┛┗┛┗┻┛┗"
-    printfn " Functional..Sokoban"
+    printfn " ┏┓    ┏┓  ┓   ┓     "
+    printfn " ┣ ┓┏┏┓┗┓┏┓┃┏┏┓┣┓┏┓┏┓" 
+    printfn " ┻ ┗┻┛┗┗┛┗┛┛┗┗┛┗┛┗┻┛┗"
+    printfn " Functional + Sokoban"
     printfn ""
 
     levels
