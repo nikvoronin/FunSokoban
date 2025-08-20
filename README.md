@@ -1,6 +1,6 @@
 # FunSokoban
 
-Minimalistic `Fun`ctional `Sokoban` (console, no mutable vars). Initially vibe coded with ChatGPT 5. Brought to working condition by Human Being 45.
+Minimalistic functional Sokonan (console, no mutable vars). Initially vibe coded with ChatGPT 5. Brought to working condition by Human Being 45.
 
 ```plain
 >
@@ -38,21 +38,7 @@ For the initial AI-generated prototype, check out the [vibe-coding](https://gith
 - **Start Level** -- type level number then press `Enter` to start the selected level
 - **Quit** (menu and game) -- press Enter with no input, or enter a value outside the available range.
 
-```plain
- ┏┓    ┏┓  ┓   ┓     
- ┣ ┓┏┏┓┗┓┏┓┃┏┏┓┣┓┏┓┏┓
- ┻ ┗┻┛┗┗┛┗┛┛┗┗┛┗┛┗┻┛┗
- Functional + Sokoban
-
-  1.  Level 1 – Simple push
-  2.  Level 2 – Two boxes, two goals
-  3.  Level 3 – Narrow corridor
-  4.  Level 4 – Small warehouse
-  5.  Level 5 – Lazy house
-  6.  Level 6 – Out of bounds
-
- Choose a level number [1..6] (Enter): 4
-```
+![Main menu](https://github.com/user-attachments/assets/0f8724b6-277a-485a-b4e1-d617c5a607ac)
 
 ### In-game
 
@@ -63,17 +49,7 @@ For the initial AI-generated prototype, check out the [vibe-coding](https://gith
 - `P` start previous level
 - `Q` quit game
 
-```plain
-🧱🧱🧱🧱🧱🧱🧱🧱
-🧱▪️▪️▪️▪️▪️▪️🧱
-🧱▪️😊🎯▪️✅▪️🧱
-🧱▪️▪️📦▪️▪️🧱
-🧱▪️▪️▪️🧱🧱🧱
-🧱🧱🧱🧱🧱
-
-Level:  Level 4 – Small warehouse | Moves: 17
-←↑↓→ to move :: U undo | R restart | N next | P prev | Q quit
-```
+![In-game screen](https://github.com/user-attachments/assets/21d3785e-9ad3-4350-b00c-8147c481939b)
 
 ## Level Collections
 
