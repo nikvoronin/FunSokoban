@@ -22,17 +22,17 @@ open System.IO
 type Pos = int * int
 
 type World = {
-    Boxes : Set<Pos>
-    Walls : Set<Pos>
-    Goals : Set<Pos>
-    Player: Pos
+    Boxes  : Set<Pos>
+    Walls  : Set<Pos>
+    Goals  : Set<Pos>
+    Player : Pos
 }
 
 type State = {
-    Grid: World
-    Width : int
+    Grid   : World
+    Width  : int
     Height : int
-    Moves : int
+    Moves  : int
 }
 
 let NonePos = -1, -1
@@ -91,28 +91,28 @@ let parse (levelText: string) =
             s 
             |> Seq.fold folder 
                 ( 0, y,
-                    { Boxes = Set.empty<Pos>
-                    ; Walls = Set.empty<Pos>
-                    ; Goals = Set.empty<Pos>
-                    ; Player = w.Player
+                    {   Boxes = Set.empty<Pos>
+                        Walls = Set.empty<Pos>
+                        Goals = Set.empty<Pos>
+                        Player = w.Player
                     }
                 )
 
         y + 1,
-        { Walls = Set.union w.Walls w2.Walls
-        ; Goals = Set.union w.Goals w2.Goals
-        ; Boxes = Set.union w.Boxes w2.Boxes
-        ; Player = w2.Player
+        {   Walls = Set.union w.Walls w2.Walls
+            Goals = Set.union w.Goals w2.Goals
+            Boxes = Set.union w.Boxes w2.Boxes
+            Player = w2.Player
         }
 
     let _, world =
         lines 
         |> List.fold lineFolder (
             0,
-            { Walls = Set.empty<Pos>
-            ; Goals = Set.empty<Pos>
-            ; Boxes = Set.empty<Pos>
-            ; Player = NonePos
+            {   Walls = Set.empty<Pos>
+                Goals = Set.empty<Pos>
+                Boxes = Set.empty<Pos>
+                Player = NonePos
             }
         )
 
@@ -225,7 +225,7 @@ let readDir k =
 // ---------- Level pack splitting ----------
 type LevelDef = {
     Title : string
-    Text : string 
+    Text  : string 
 }
 
 let splitLevels (packText: string) =
@@ -285,7 +285,7 @@ let rec chooseLevel levels selected =
         num > 0 && num <= Array.length lvls
 
     // Level numbering starts from 1
-    match Int32.TryParse(Console.ReadLine()) with
+    match Int32.TryParse( Console.ReadLine() ) with
     | true, num when isNumInRange num levels ->
         Some (num - 1)
     | _ -> None
@@ -334,6 +334,7 @@ let rec loopPack levels current =
     | Some i ->
         let lvl = levels.[i]
         let initial = parse lvl.Text
+        
         match loopLevel lvl.Title initial with
         | Prev ->
             let prev = if i > 0 then i - 1 else levels.Length - 1
