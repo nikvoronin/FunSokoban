@@ -112,8 +112,8 @@ Level data is loaded from text files, see the `levels/*` directory. The game rea
 
 - [Levels](levels/levels.txt) (6) - test levels for this project
 - [Microban](levels/sb_microban_1.xsb) (155) - David W. Skinner © 2000
-- [Microcosmos](levels/Microcosmos.xsb) (40) - Aymeric du Peloux © 1996-2000
-- [Minicosmos](levels/Minicosmos.xsb) (40) - Aymeric du Peloux © 2001
+- [Microcosmos](levels/microcosmos.xsb) (40) - Aymeric du Peloux © 1996-2000
+- [Minicosmos](levels/minicosmos.xsb) (40) - Aymeric du Peloux © 2001
 
 ## Develop F# Console Project
 
