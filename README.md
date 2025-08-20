@@ -22,6 +22,8 @@ Minimalistic `Fun`ctional `Sokoban` (console, no mutable vars). Initially vibe c
 **System requirements:** Windows 10 x64, .NET Desktop Runtime 9.0.\
 Linux and macOS are also supported with the corresponding .NET runtime.
 
+⚠️ For the best experience, use a modern UTF-8 terminal with emoji support, such as Windows Terminal (wt).
+
 For the initial AI-generated prototype, check out the [vibe-coding](https://github.com/nikvoronin/FunSokoban/tree/vibe-coding) branch. It includes the vibe-code and the complete prompt history.
 
 ```plain
