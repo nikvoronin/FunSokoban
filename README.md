@@ -57,10 +57,10 @@ Minimalistic `Fun`ctional `Sokoban` (console, no mutable vars). Initially vibe c
 
 ```plain
 🧱🧱🧱🧱🧱🧱🧱🧱
-🧱            🧱
-🧱  😊🎯  ✅  🧱
-🧱    📦      🧱
-🧱      🧱🧱🧱
+🧱💠💠💠💠💠💠🧱
+🧱💠😊🎯💠✅💠🧱
+🧱💠💠📦💠💠🧱
+🧱💠💠💠🧱🧱🧱
 🧱🧱🧱🧱🧱
 
 Level:  Level 4 – Small warehouse | Moves: 17
@@ -105,9 +105,9 @@ Level:  Level 4 – Small warehouse | Moves: 17
 Level data is loaded from text files, see the `levels/*` directory. The game reads levels in a format based on the standard Sokoban `.xsb` file format.
 
 - [Levels](levels/levels.txt) (6) - test levels for this project
-- [Microban](levels/sb_microban_1.xsb) (155) - David W. Skinner ©️ 2000
-- [Microcosmos](levels/Microcosmos.xsb) (40) - Aymeric du Peloux ©️ 1996-2000
-- [Minicosmos](levels/Minicosmos.xsb) (40) - Aymeric du Peloux ©️ 2001
+- [Microban](levels/sb_microban_1.xsb) (155) - David W. Skinner © 2000
+- [Microcosmos](levels/Microcosmos.xsb) (40) - Aymeric du Peloux © 1996-2000
+- [Minicosmos](levels/Minicosmos.xsb) (40) - Aymeric du Peloux © 2001
 
 ## Develop F# Console Project
 
